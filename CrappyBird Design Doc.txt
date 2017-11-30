@@ -1,0 +1,26 @@
+Crappy Bird Design Document
+----------------------------
+-you play as a crappy bird
+	-crappy bird has a few different animations
+		-one for not moving
+		-one for flapping
+	-when crappy bird starts, crappy bird is gliding, no flapping animation, and there are no mario pipes, and
+	the score is not yet displayed.
+	-crappy bird spawns around the middle/left of the screen/view
+-paralax scrolling 
+-press spacebar or click to accelerate upwards
+-there are pipes that the crappy bird has to manuever through
+	-the pipes are of variable length
+	-the distance or space between the pipes is fixed
+	-they are always the same interval apart
+-your score is saved whenever you hit something and crappy bird dies
+	-your last score and your best score are displayed at the end
+	-your score is always displayed when you are playing
+	-at the end, a different score is displayed along with best
+	-there are apparently leaderboards in the web version, but not going to 
+	implement.
+-whenever crappy bird hits something he falls and collides with the ground
+	-he drops straight down and does not animate
+-the screen dimensions are 400 x 600 
+ 
+	
